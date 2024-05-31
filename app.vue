@@ -6,14 +6,16 @@
     <!-- Header -->
     <header class="pt-8 pb-4 flex flex-col items-start gap-4">
       <div>
-        <NuxtLink to="/">
-          <div class="flex flex-row items-center gap-2 mb-px">
+        <div class="flex flex-row items-center gap-2 mb-px w-fit">
+          <NuxtLink to="/">
             <img src="/images/KL-logo.png" width="30px" />
+          </NuxtLink>
+          <NuxtLink to="/">
             <h1 class="text-2xl font-semibold hover:text-softblue">
                 Kim-Lan's DevLog
             </h1>
-          </div>
-        </NuxtLink>
+          </NuxtLink>
+        </div>
         <p class="text-gray-500">Developer. Always learning something new. DevLog made with Nuxt Content and Tailwind CSS.</p>
       </div>
       <div>
