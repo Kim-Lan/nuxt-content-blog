@@ -1,9 +1,4 @@
 <script setup lang="ts">
-useHead({
-  link: [
-    { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' }
-  ]
-})
 </script>
 
 <template>
@@ -11,19 +6,23 @@ useHead({
     <!-- Header -->
     <header class="pt-8 pb-4 flex flex-col items-start gap-4">
       <div>
-        <h1 class="text-2xl font-semibold hover:text-sky-300">
-          <NuxtLink to="/">
-            Kim-Lan's DevLog
-          </NuxtLink>
-        </h1>
+        <NuxtLink to="/">
+          <div class="flex flex-row items-center gap-2 mb-px">
+            <img src="/images/KL-logo.png" width="30px" />
+            <h1 class="text-2xl font-semibold hover:text-softblue">
+                Kim-Lan's DevLog
+            </h1>
+          </div>
+        </NuxtLink>
         <p class="text-gray-500">Developer. Always learning something new. DevLog made with Nuxt Content and Tailwind CSS.</p>
       </div>
       <div>
-        <NuxtLink to="https://github.com/Kim-Lan" target="_blank">
-          <button class="bg-white rounded px-2 py-px text-gray-800 hover:bg-sky-300 drop-shadow">
+          <button
+            class="bg-white rounded-md px-2 py-px text-gray-800 drop-shadow hover:bg-softblue hover:text-gray-100"
+            @click.prevent="navigateTo('https://github.com/Kim-Lan', { open: { target: '_blank' }})"
+          >
             <i class="fa fa-github"></i> GitHub
           </button>
-        </NuxtLink>
       </div>
     </header>
 
