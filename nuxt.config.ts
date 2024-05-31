@@ -5,5 +5,10 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/content'
   ],
+  app: {
+    head: {
+      link: [{ rel: 'icon', type: 'image/png', href: 'favicon.png'}],
+    }
+  },
   content: {},
 })
