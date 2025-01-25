@@ -11,15 +11,16 @@ const slug = route.params.slug;
 
 <template>
   <main class="py-8 mb-8">
-    <div class="bg-white rounded-md drop-shadow mb-3">
+    <BackButton />
+    <div class="bg-white rounded-md drop-shadow my-3">
       <ContentDoc :path="`/posts/${slug}`" v-slot="{ doc }">
         <!-- Header -->
         <div>
           <div class="text-center p-5">
             <h2 class="text-4xl font-semibold">{{ doc.title }}</h2>
-            <div class="text-gray-500 text-sm mt-2">
+            <!-- <div class="text-gray-500 text-sm mt-2">
               {{ new Date(doc.datePosted).toLocaleDateString() }}
-            </div>
+            </div> -->
           </div>
           <img :src="doc.thumbnail" class="w-full h-full object-cover" />
         </div>
@@ -30,12 +31,7 @@ const slug = route.params.slug;
         </div>
       </ContentDoc>
     </div>
-    <button
-      class="bg-white rounded-md px-4 py-2 text-gray-800 drop-shadow hover:bg-softblue hover:text-gray-100"
-      @click.prevent="navigateTo('/')"
-    >
-      <i class="fa fa-arrow-left"></i> Back
-    </button>
+    <BackButton />
   </main>
 </template>
 
