@@ -18,12 +18,17 @@
         </div>
         <p class="text-gray-500">Developer. Always learning something new. DevLog made with Nuxt Content and Tailwind CSS.</p>
       </div>
-      <div>
+      <div class="flex gap-2">
           <button
             class="bg-white rounded-md px-2 py-px text-gray-800 drop-shadow hover:bg-softblue hover:text-gray-100"
             @click.prevent="navigateTo('https://github.com/Kim-Lan', { open: { target: '_blank' }})"
           >
             <i class="fa fa-github"></i> GitHub
+          </button>          <button
+            class="bg-white rounded-md px-2 py-px text-gray-800 drop-shadow hover:bg-softblue hover:text-gray-100"
+            @click.prevent="navigateTo('https://www.linkedin.com/in/kim-lan-v/', { open: { target: '_blank' }})"
+          >
+            <i class="fa fa-linkedin"></i> LinkedIn
           </button>
       </div>
     </header>
