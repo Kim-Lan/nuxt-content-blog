@@ -23,12 +23,12 @@
             class="bg-white rounded-md px-2 py-px text-gray-800 drop-shadow hover:bg-softblue hover:text-gray-100"
             @click.prevent="navigateTo('https://github.com/Kim-Lan', { open: { target: '_blank' }})"
           >
-            <i class="fa fa-github"></i> GitHub
+            <fa icon="fa-brands fa-github" /> GitHub
           </button>          <button
             class="bg-white rounded-md px-2 py-px text-gray-800 drop-shadow hover:bg-softblue hover:text-gray-100"
             @click.prevent="navigateTo('https://www.linkedin.com/in/kim-lan-v/', { open: { target: '_blank' }})"
           >
-            <i class="fa fa-linkedin"></i> LinkedIn
+          <fa icon="fa-brands fa-linkedin" /> LinkedIn
           </button>
       </div>
     </header>
