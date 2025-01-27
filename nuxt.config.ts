@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@vesp/nuxt-fontawesome'],
+
   app: {
     head: {
       link: [
@@ -9,7 +10,9 @@ export default defineNuxtConfig({
       ],
     }
   },
+
   css: ['~/assets/styles/main.css'],
+
   fontawesome: {
     component: "fa",
     icons: {
@@ -17,5 +20,7 @@ export default defineNuxtConfig({
       regular: [],
       brands: ['github', 'linkedin']
     }
-  }
+  },
+
+  compatibilityDate: '2025-01-26'
 })
