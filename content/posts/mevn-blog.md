@@ -2,7 +2,7 @@
 title: 'MEVN Blog'
 description: 'A full-stack blog application built with MongoDB, Express, Vue, and Node.'
 datePosted: 2025-01-26PDT
-dateUpdated: 2025-01-26PDT
+dateUpdated: 2025-01-27PDT
 thumbnail: '/images/mevn-blog-v2.png'
 draft: false
 slug: 'mevn-blog'
@@ -23,7 +23,7 @@ MEVN (MongoDB, Express, Vue, Node) stack blog with user authentication, state ma
 
 - Vue Router
 - Navigation Guards
-- User Authentication
+- User Authentication with JSON Web Tokens
 - State Management with Pinia
 - Image Upload with Multer
 - Search Function

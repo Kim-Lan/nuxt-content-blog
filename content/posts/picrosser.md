@@ -2,7 +2,7 @@
 title: 'Picrosser'
 description: 'A full-stack web application built on Nuxt. Play the Picross puzzle game online!'
 datePosted: 2024-05-29PDT
-dateUpdated: 2024-05-29PDT
+dateUpdated: 2025-01-27PDT
 thumbnail: '/images/picrosser.png'
 draft: false
 slug: 'picrosser'
@@ -23,7 +23,9 @@ Picrosser is a full-stack web application built on Nuxt. Features include on-dem
 
 ## Features
 
-- Authentication
+- User Authentication with JSON Web Tokens
+- Email Verification
+- Password Recovery
 - State Management
 - Undo/Redo
 - User Statistics
