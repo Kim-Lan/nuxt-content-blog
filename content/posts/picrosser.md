@@ -25,7 +25,7 @@ Picrosser is a full-stack web application built on Nuxt. Features include on-dem
 
 - User Authentication with JSON Web Tokens
 - Email Verification
-- Password Recovery
+- Password Reset
 - State Management
 - Undo/Redo
 - User Statistics
