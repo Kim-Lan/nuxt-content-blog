@@ -10,7 +10,7 @@ useHead({
       path="/posts"
       :query="{
         where: [{ draft: false }],
-        sort: [{ datePosted: -1 }],
+        sort: [{ index: 1 }],
       }"
       v-slot="{ list }"
     >
@@ -21,7 +21,7 @@ useHead({
       >
         <NuxtLink :to="`/${post.slug}`">
           <div class="h-[320px] relative">
-            <img :src="post.thumbnail" class="w-full h-full object-cover absolute" />
+            <img :src="post.thumbnail" class="w-full h-full object-cover object-top object-left absolute" />
           </div>
           <div class="p-4">
             <h2 class="text-2xl font-semibold">

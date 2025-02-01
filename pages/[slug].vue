@@ -22,7 +22,7 @@ const slug = route.params.slug;
               {{ new Date(doc.datePosted).toLocaleDateString() }}
             </div> -->
           </div>
-          <img :src="doc.thumbnail" class="w-full h-full object-cover" />
+          <img :src="doc.thumbnail" class="w-full h-full object-cover border-y-2 border-gray-100" />
         </div>
 
         <!-- Content -->

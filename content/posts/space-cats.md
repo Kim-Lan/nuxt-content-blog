@@ -6,6 +6,7 @@ dateUpdated: 2024-02-29PST
 thumbnail: '/images/space-cats.png'
 draft: false
 slug: 'space-cats'
+index: 3
 ---
 
 - **Deployment**: <u>[https://camkatsu.itch.io/space-cats](https://camkatsu.itch.io/space-cats)</u>
