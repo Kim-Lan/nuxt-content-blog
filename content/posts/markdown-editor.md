@@ -1,6 +1,6 @@
 ---
 title: 'Markdown Editor'
-description: 'A markdown editor made with Vue 3. '
+description: 'A reactive markdown editor made with Vue 3.'
 datePosted: 2025-01-31PDT
 dateUpdated: 2025-01-31PDT
 thumbnail: '/images/markdown-editor.png'
@@ -11,7 +11,7 @@ index: 2
 
 ## Overview
 
-A markdown editor made with Vue 3. Add tags with buttons, open local files, and download files.
+A reactive markdown editor made with Vue 3. Reactively view markdown parsed as HTML, add markdown tags with UI buttons, open local files, and download files.
 
 - **Deployment:** <u>[https://kim-lan.github.io/markdown-editor/](https://kim-lan.github.io/markdown-editor/)</u>
 - **GitHub:** <u>[https://github.com/Kim-Lan/markdown-editor](https://github.com/Kim-Lan/markdown-editor)</u>
@@ -24,7 +24,7 @@ A markdown editor made with Vue 3. Add tags with buttons, open local files, and 
 ## Features
 
 - Reactively view markdown parsed as HTML
-- Add markdown tags using UI buttons
+- Add markdown tags with UI buttons
 - Open local markdown file
 - Download markdown file
-- Theme Toggle
+- Toggle light/dark theme
