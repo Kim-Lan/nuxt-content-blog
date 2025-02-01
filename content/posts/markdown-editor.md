@@ -17,7 +17,7 @@ A reactive markdown editor made with Vue 3. Reactively view markdown parsed as H
 - **GitHub:** <u>[https://github.com/Kim-Lan/markdown-editor](https://github.com/Kim-Lan/markdown-editor)</u>
 - **Framework:** Vue 3
 - **UI:** Tailwind CSS
-- **Packages:** VueUse, MarkdownIt
+- **Packages:** MarkdownIt, VueUse, SplitPanes, Unplugin Icons
 
 <br />
 
