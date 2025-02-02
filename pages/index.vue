@@ -21,7 +21,7 @@ useHead({
       >
         <NuxtLink :to="`/${post.slug}`">
           <div class="h-[320px] relative">
-            <img :src="post.thumbnail" class="w-full h-full object-cover object-top object-left absolute" />
+            <img :src="post.thumbnail" class="w-full h-full object-cover object-top absolute" />
           </div>
           <div class="p-4">
             <h2 class="text-2xl font-semibold">
