@@ -6,7 +6,7 @@ dateUpdated: 2025-01-27PDT
 thumbnail: '/images/picrosser.png'
 draft: false
 slug: 'picrosser'
-index: 1
+index: 0
 ---
 
 ## Overview

@@ -6,7 +6,7 @@ dateUpdated: 2025-01-27PDT
 thumbnail: '/images/mevn-blog-v2.png'
 draft: false
 slug: 'mevn-blog'
-index: 0
+index: 2
 ---
 
 ## Overview

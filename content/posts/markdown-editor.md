@@ -6,7 +6,7 @@ dateUpdated: 2025-01-31PDT
 thumbnail: '/images/markdown-editor.png'
 draft: false
 slug: 'markdown-editor'
-index: 2
+index: 1
 ---
 
 ## Overview
