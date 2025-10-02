@@ -19,6 +19,7 @@ useHead({
         :key="post._path"
         class="bg-white rounded-md overflow-hidden mb-8 drop-shadow"
       >
+      
         <div class="h-[320px] relative">
           <img :src="post.thumbnail" class="w-full h-full object-cover object-top absolute" />
         </div>
@@ -33,12 +34,13 @@ useHead({
             <p>{{ post.description }}</p>
           </div>
           <div class="flex justify-end mt-4">
-            <button
-              class="bg-white rounded-md px-4 py-2 text-gray-800 drop-shadow hover:bg-softblue hover:text-gray-100 font-bold"
-              @click.prevent="navigateTo(`/${post.slug}`)"
-            >
-                Read More <fa icon="fa fa-arrow-right" />
-            </button>
+            <NuxtLink :to="`/${post.slug}`">
+              <div
+                class="bg-white rounded-md px-4 py-2 text-gray-800 drop-shadow hover:bg-softblue hover:text-gray-100 font-bold"
+              >
+                  Read More <fa icon="fa fa-arrow-right" />
+              </div>
+            </NuxtLink>
           </div>
         </div>
       </div>
